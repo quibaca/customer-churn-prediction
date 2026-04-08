@@ -4,82 +4,87 @@ End-to-end Customer Churn Prediction project using Machine Learning, with data a
 # 📊 Customer Churn Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
-![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
-![BI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
+![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Dashboard](https://img.shields.io/badge/Streamlit-App-red)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
 
 ---
 
-##  Overview
-This is an end-to-end Machine Learning project designed to predict customer churn.
+## 🚀 Overview
 
-It combines **data analysis, predictive modeling, and business intelligence dashboards** to identify customers at risk of leaving and support retention strategies.
+End-to-end Machine Learning project to predict customer churn.
 
----
-
-##  Business Problem
-Customer churn is a critical issue for subscription-based companies.
-
-👉 Key questions:
-- Which customers are likely to churn?
-- What factors drive customer churn?
-- How can businesses reduce churn?
+This project combines:
+- 📊 Data Analysis
+- 🧠 Predictive Modeling
+- 📈 Business Intelligence Dashboards
 
 ---
 
-##  Machine Learning Pipeline
+## 🎯 Business Problem
 
-### 🔹 Data Processing
-- Data cleaning
-- Feature engineering
-- Categorical encoding
+Customer churn is a major challenge for subscription-based businesses.
 
-### 🔹 Model
-- Logistic Regression
-
-### 🔹 Evaluation
-- Accuracy
-- Precision
-- Recall
-- F1-score
+This project helps to:
+- Identify customers at risk of leaving
+- Understand churn behavior
+- Support retention strategies
 
 ---
 
-##  Key Insights
+## 📊 Key Insights
 
--  Customers with **month-to-month contracts** have higher churn rates  
--  Higher **monthly charges** increase churn risk  
--  Lack of **tech support** is strongly linked to churn  
--  Long-term contracts significantly reduce churn  
+- 📉 Month-to-month contracts → **higher churn**
+- 💰 High monthly charges → **higher risk**
+- 🛠️ No tech support → **strong churn indicator**
+- 📆 Long-term contracts → **customer retention**
 
 ---
 
-##  Dashboards
+## 🧠 Machine Learning
 
-###  Streamlit App
-- Interactive prediction interface
+- Model: Logistic Regression
+- Feature Engineering & Encoding
+- Train/Test Split
+- Evaluation:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+
+---
+
+## 🖥️ Streamlit Dashboard
+
+![Streamlit Dashboard](images/streamlit_dashboard.png)
+
+- Interactive prediction tool
 - Real-time churn probability
-- User-friendly inputs
-
-###  Power BI Dashboard
-- Customer segmentation
-- Churn trends
-- Business insights
+- User-friendly interface
 
 ---
 
-##  Technologies Used
+## 📊 Power BI Dashboard
+
+![Power BI Dashboard](images/powerbi_dashboard.png)
+
+- Customer segmentation
+- Churn trends analysis
+- Business insights visualization
+
+---
+
+## 🛠️ Technologies
 
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
 - Power BI
-- Matplotlib / Seaborn
 
 ---
 
-##  How to Run
+## ▶️ Run Locally
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/customer-churn-prediction.git
@@ -100,10 +105,15 @@ customer-churn-prediction/
 ├── model/
 ├── notebooks/
 ├── src/
+├── images/
 │
+├── README.md
 ├── requirements.txt
-└── README.md
 
-<img width="1897" height="994" alt="churn predisction 2" src="https://github.com/user-attachments/assets/bc53e67e-2449-4839-b017-d7e311e00c2c" />
+<img width="1911" height="1017" alt="image_dashboar_BI" src="https://github.com/user-attachments/assets/191402d0-193b-4ba2-8f50-085ad0094962" />
+<img width="1900" height="983" alt="churn prediction scream" src="https://github.com/user-attachments/assets/a496dfc4-63d3-4e3c-9a8a-e1bd4d53f850" />
+<img width="1897" height="994" alt="churn predisction 2" src="https://github.com/user-attachments/assets/0150b172-76e8-4402-9609-01c4520b1129" />
+
+
 
 

@@ -104,4 +104,6 @@ customer-churn-prediction/
 ├── requirements.txt
 └── README.md
 
+<img width="1897" height="994" alt="churn predisction 2" src="https://github.com/user-attachments/assets/bc53e67e-2449-4839-b017-d7e311e00c2c" />
+
 
